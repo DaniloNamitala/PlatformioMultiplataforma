@@ -87,6 +87,8 @@ void loop() {
 }
 ~~~
 
+***VER O CODIGO FONTE ./src/main.cpp PARA OUTROS EXEMPLOS DE USO DO IFDEF*
+
 ### 6. Final 
 
 Como mostra o gif eu consigo compilar para as duas placas sem problemas:
