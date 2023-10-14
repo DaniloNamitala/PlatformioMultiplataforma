@@ -70,7 +70,7 @@ Dessa forma podemos fazer um codigo inteiro que funcione para as duas placas e t
     </tr>
 </table>
 
-Note nesse exemplo da função loop que a verificação da macro foi inserida no meio do código, ela pode ser inserida em qualquer lugar, ela nao atrapalhará a execução, serve para dizer ao compilador qual trecho de códugo usar na compilação.
+Note nesse exemplo da função loop que a verificação da macro foi inserida no meio do código, ela pode ser inserida em qualquer lugar pois atrapalhará a execução, serve para dizer ao compilador qual trecho de código usar na compilação.
 
 ~~~
 void loop() {
