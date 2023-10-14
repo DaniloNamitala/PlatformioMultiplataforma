@@ -21,6 +21,5 @@ void loop() {
   #elif BUILD_BLUEPILL
   pwmWrite(PA0, 65535);
   #endif
-
 }
 
