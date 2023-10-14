@@ -87,7 +87,7 @@ void loop() {
 }
 ~~~
 
-***VER O CODIGO FONTE ./src/main.cpp PARA OUTROS EXEMPLOS DE USO DO IFDEF*
+***VER O CODIGO FONTE [main.cpp](./src/main.cpp) PARA OUTROS EXEMPLOS DE USO DO IFDEF*
 
 ### 6. Final 
 
