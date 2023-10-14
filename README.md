@@ -28,7 +28,7 @@ Note que no topo do arquivo onde é apontado pela seta eu criei um `env` sem nom
 
 <p align="center"><img src="./img/env.png" height="500"></p>
 
-### 4 Compilando cada placa
+### 4. Compilando cada placa
 
 Para compilar ou fazer upload agora precisamos dizer para qual plataforma queremos que a tarefa seja executada.
 
@@ -44,16 +44,16 @@ Expandindo a opção da plataforma tem as opções de build e upload para aquela
 
 <p align="center"><img src="./img/build.png" height="300"></p>
 
-### 5 Tratando diferenças de codigo
+### 5. Tratando diferenças de codigo
 
 Diferentes plataformas podem ter diferentes formas de realizar alguma função ou usar bibliotecas diferentes, isso pode ser resolvido com definição de macros.
 
-#### 5.1 Macros
+#### 5.1. Macros
 Dentro de cada enviroment eu adicionei uma `build_falg` para criar um macro na compilação, é importante que o nome dos macros sejam **DIFERENTES** para cada placa, pois vão ser usados para diferenciar o código.
 
 <p align="center"><img src="./img/buildflags.png" height="300"></p>
 
-#### 5.2 Verificação no código
+#### 5.2. Verificação no código
 
 Veja nesses dois exemplos de código, em toda parte que eu tiver uma diferença eu coloco uma verificação usando as macros que criamos no `platformio.ini`.
 
@@ -86,3 +86,9 @@ void loop() {
   #endif
 }
 ~~~
+
+### 6. Final 
+
+Como mostra o gif eu consigo compilar para as duas placas sem problemas:
+
+<p align="center"><img src="./img/final.gif" height="300"></p>
